@@ -1,12 +1,21 @@
-﻿using System;
+﻿using FizzBuzzConsoleExercise.Excercise;
+using System;
 
 namespace FizzBuzzConsoleExercise
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var array = new int[args.Length];
+            IFizzBuzzExcercise fizzBuzz = new CExercise();
+
+            for (int i = 0; i < array.Length; i++)
+            {
+                array[i] = int.Parse(args[i]);
+            }
+
+            fizzBuzz.Excercise(array);
         }
     }
 }

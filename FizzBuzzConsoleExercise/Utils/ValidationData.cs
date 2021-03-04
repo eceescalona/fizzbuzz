@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace FizzBuzzConsoleExercise.Utils
 {
-    [AttributeUsage(AttributeTargets.Parameter)]
+    [AttributeUsage(AttributeTargets.Parameter, AllowMultiple = false, Inherited = true)]
     internal class ValidationData : ValidationAttribute
     {
         public override bool IsValid(object value)
