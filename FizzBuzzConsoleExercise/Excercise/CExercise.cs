@@ -5,8 +5,10 @@ namespace FizzBuzzConsoleExercise.Excercise
 {
     internal class CExercise : IFizzBuzzExcercise
     {
-        public void Excercise([ValidationData(ErrorMessage = "Argument out of range")] int[] array)
+        public string Excercise([ValidationData(ErrorMessage = "Argument out of range")] int[] array)
         {
+            string result = "";
+
             foreach (var number in array)
             {
                 string line = "";
@@ -23,13 +25,15 @@ namespace FizzBuzzConsoleExercise.Excercise
 
                 if (!string.IsNullOrWhiteSpace(line))
                 {
-                    Console.WriteLine(line);
+                    result += line;
                 }
                 else
                 {
-                    Console.WriteLine(number);
+                    result += number.ToString();
                 }
             }
+
+            return result;
         }
     }
 }

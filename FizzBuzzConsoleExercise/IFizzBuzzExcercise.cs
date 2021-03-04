@@ -4,6 +4,6 @@ namespace FizzBuzzConsoleExercise
 {
     public interface IFizzBuzzExcercise
     {
-        public void Excercise([ValidationData] int[] array);
+        public string Excercise([ValidationData] int[] array);
     }
 }
