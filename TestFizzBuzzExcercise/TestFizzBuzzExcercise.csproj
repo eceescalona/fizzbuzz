@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\fizzbuzz\FizzBuzzConsoleExercise\FizzBuzzConsoleExercise.csproj" />
+    <ProjectReference Include="..\FizzBuzzConsoleExercise\FizzBuzzConsoleExercise.csproj" />
   </ItemGroup>
 
 </Project>
