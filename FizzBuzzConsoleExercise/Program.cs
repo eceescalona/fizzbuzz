@@ -13,7 +13,14 @@ namespace FizzBuzzConsoleExercise
 
         public static string RunProcess(int[] array)
         {
-            return fizzBuzz.Excercise(array);
+            try
+            {
+                return fizzBuzz.Excercise(array);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
     }
 }

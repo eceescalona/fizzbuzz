@@ -1,9 +1,7 @@
-﻿using FizzBuzzConsoleExercise.Utils;
-
-namespace FizzBuzzConsoleExercise
+﻿namespace FizzBuzzConsoleExercise
 {
     public interface IFizzBuzzExcercise
     {
-        public string Excercise([ValidationData] int[] array);
+        public string Excercise(int[] array);
     }
 }

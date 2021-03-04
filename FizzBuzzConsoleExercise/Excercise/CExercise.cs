@@ -1,13 +1,22 @@
-﻿using FizzBuzzConsoleExercise.Utils;
-using System;
+﻿using System;
 
 namespace FizzBuzzConsoleExercise.Excercise
 {
     internal class CExercise : IFizzBuzzExcercise
     {
-        public string Excercise([ValidationData(ErrorMessage = "Argument out of range")] int[] array)
+        public string Excercise(int[] array)
         {
             string result = "";
+
+            if (array == null)
+            {
+                throw new ArgumentNullException(nameof(array));
+            }
+            
+            if (array.Length <= 0 || array.Length > 100)
+            {
+                throw new ArgumentOutOfRangeException(nameof(array), array.Length, "Argument out of range.");
+            }
 
             foreach (var number in array)
             {
