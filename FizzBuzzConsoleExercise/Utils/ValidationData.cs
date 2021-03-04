@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace FizzBuzzConsoleExercise.Utils
 {
-    [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field, AllowMultiple = false)]
+    [AttributeUsage(AttributeTargets.Parameter)]
     internal class ValidationData : ValidationAttribute
     {
         public override bool IsValid(object value)
@@ -26,7 +26,7 @@ namespace FizzBuzzConsoleExercise.Utils
 
         public override string FormatErrorMessage(string name)
         {
-            return string.Format("The {0} parameter is not valid.", nameof(name));
+            return String.Format(CultureInfo.CurrentCulture, ErrorMessageString, name);
         }
     }
 }
