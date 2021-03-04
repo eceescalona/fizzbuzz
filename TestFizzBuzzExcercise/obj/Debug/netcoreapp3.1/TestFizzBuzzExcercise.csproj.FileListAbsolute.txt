@@ -198,3 +198,6 @@ C:\Users\KickAxe\source\repos\eceescalona\fizzbuzz\TestFizzBuzzExcercise\obj\Deb
 C:\Users\KickAxe\source\repos\eceescalona\fizzbuzz\TestFizzBuzzExcercise\obj\Debug\netcoreapp3.1\TestFizzBuzzExcercise.dll
 C:\Users\KickAxe\source\repos\eceescalona\fizzbuzz\TestFizzBuzzExcercise\obj\Debug\netcoreapp3.1\TestFizzBuzzExcercise.pdb
 C:\Users\KickAxe\source\repos\eceescalona\fizzbuzz\TestFizzBuzzExcercise\obj\Debug\netcoreapp3.1\TestFizzBuzzExcercise.genruntimeconfig.cache
+C:\Users\KickAxe\source\repos\eceescalona\fizzbuzz\TestFizzBuzzExcercise\bin\Debug\netcoreapp3.1\FizzBuzzConsoleExercise.deps.json
+C:\Users\KickAxe\source\repos\eceescalona\fizzbuzz\TestFizzBuzzExcercise\bin\Debug\netcoreapp3.1\FizzBuzzConsoleExercise.runtimeconfig.json
+C:\Users\KickAxe\source\repos\eceescalona\fizzbuzz\TestFizzBuzzExcercise\bin\Debug\netcoreapp3.1\FizzBuzzConsoleExercise.runtimeconfig.dev.json

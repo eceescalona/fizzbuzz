@@ -35,10 +35,12 @@ namespace FizzBuzzConsoleExercise.Excercise
                 if (!string.IsNullOrWhiteSpace(line))
                 {
                     result += line;
+                    Console.WriteLine(line);
                 }
                 else
                 {
                     result += number.ToString();
+                    Console.WriteLine(number);
                 }
             }
 

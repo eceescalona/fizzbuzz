@@ -9,31 +9,40 @@ namespace TestFizzBuzzExcercise
         [Fact]
         public void Test1()
         {
+            int counter = 0;
+            string line;
             int[] entry = new int[100];
-            for (int i = 0; i < entry.Length; i++)
+
+            // Read the file and display it line by line.  
+            System.IO.StreamReader file =
+                new System.IO.StreamReader(AppDomain.CurrentDomain.BaseDirectory + @"{..\..\..\..\..\..\Resources\test.txt");
+            while ((line = file.ReadLine()) != null)
             {
-                entry[i] = i + 1;
+                entry[counter] = int.Parse(line);
+                counter++;
             }
+
+            file.Close();
 
             string expected = "";
 
             foreach (var number in entry)
             {
-                string line = "";
+                string resutl = "";
 
                 if (number % 3 == 0)
                 {
-                    line += "Fizz";
+                    resutl += "Fizz";
                 }
 
                 if (number % 5 == 0)
                 {
-                    line += "Buzz";
+                    resutl += "Buzz";
                 }
 
-                if (!string.IsNullOrWhiteSpace(line))
+                if (!string.IsNullOrWhiteSpace(resutl))
                 {
-                    expected += line;
+                    expected += resutl;
                 }
                 else
                 {
@@ -41,7 +50,6 @@ namespace TestFizzBuzzExcercise
                 }
             }
 
-            Program.Main(null);
             string actual = Program.RunProcess(entry);
 
             Assert.Equal(expected, actual);

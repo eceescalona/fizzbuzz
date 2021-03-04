@@ -13,6 +13,8 @@ namespace FizzBuzzConsoleExercise
 
         public static string RunProcess(int[] array)
         {
+            fizzBuzz = new CExercise();
+
             try
             {
                 return fizzBuzz.Excercise(array);
