@@ -2,4 +2,5 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/FizzBuzzConsoleExercise
+/FizzBuzzConsoleExercise/bin/Debug/netcoreapp3.1
+/FizzBuzzConsoleExercise/obj/Debug/netcoreapp3.1
