@@ -11,7 +11,7 @@ If you want to set a diferent set of records to test you need to copy a new file
 ..\fizzbuzz\Resources\test.
 Note: If not needed put the extension file in the name if you create a new one file.
 
-You can run the solution from an executable file too. The path for this is ..\fizzbuzz\FizzBuzzConsoleExercise\bin\Debug\netcoreapp3.1\FizzBuzzConsoleExercise.exe
+You can run the solution from an executable file too. The path for this is ..\fizzbuzz\FizzBuzzConsoleExercise\bin\Release\netcoreapp3.1\FizzBuzzConsoleExercise.exe
 
 Recommended to use:
 VisualStudio 19
