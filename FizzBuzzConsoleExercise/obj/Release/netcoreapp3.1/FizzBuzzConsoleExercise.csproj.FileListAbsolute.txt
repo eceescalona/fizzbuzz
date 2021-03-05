@@ -1,0 +1,13 @@
+C:\Users\KickAxe\source\repos\eceescalona\fizzbuzz\FizzBuzzConsoleExercise\bin\Release\netcoreapp3.1\FizzBuzzConsoleExercise.exe
+C:\Users\KickAxe\source\repos\eceescalona\fizzbuzz\FizzBuzzConsoleExercise\bin\Release\netcoreapp3.1\FizzBuzzConsoleExercise.deps.json
+C:\Users\KickAxe\source\repos\eceescalona\fizzbuzz\FizzBuzzConsoleExercise\bin\Release\netcoreapp3.1\FizzBuzzConsoleExercise.runtimeconfig.json
+C:\Users\KickAxe\source\repos\eceescalona\fizzbuzz\FizzBuzzConsoleExercise\bin\Release\netcoreapp3.1\FizzBuzzConsoleExercise.runtimeconfig.dev.json
+C:\Users\KickAxe\source\repos\eceescalona\fizzbuzz\FizzBuzzConsoleExercise\bin\Release\netcoreapp3.1\FizzBuzzConsoleExercise.dll
+C:\Users\KickAxe\source\repos\eceescalona\fizzbuzz\FizzBuzzConsoleExercise\bin\Release\netcoreapp3.1\FizzBuzzConsoleExercise.pdb
+C:\Users\KickAxe\source\repos\eceescalona\fizzbuzz\FizzBuzzConsoleExercise\obj\Release\netcoreapp3.1\FizzBuzzConsoleExercise.csprojAssemblyReference.cache
+C:\Users\KickAxe\source\repos\eceescalona\fizzbuzz\FizzBuzzConsoleExercise\obj\Release\netcoreapp3.1\FizzBuzzConsoleExercise.AssemblyInfoInputs.cache
+C:\Users\KickAxe\source\repos\eceescalona\fizzbuzz\FizzBuzzConsoleExercise\obj\Release\netcoreapp3.1\FizzBuzzConsoleExercise.AssemblyInfo.cs
+C:\Users\KickAxe\source\repos\eceescalona\fizzbuzz\FizzBuzzConsoleExercise\obj\Release\netcoreapp3.1\FizzBuzzConsoleExercise.csproj.CoreCompileInputs.cache
+C:\Users\KickAxe\source\repos\eceescalona\fizzbuzz\FizzBuzzConsoleExercise\obj\Release\netcoreapp3.1\FizzBuzzConsoleExercise.dll
+C:\Users\KickAxe\source\repos\eceescalona\fizzbuzz\FizzBuzzConsoleExercise\obj\Release\netcoreapp3.1\FizzBuzzConsoleExercise.pdb
+C:\Users\KickAxe\source\repos\eceescalona\fizzbuzz\FizzBuzzConsoleExercise\obj\Release\netcoreapp3.1\FizzBuzzConsoleExercise.genruntimeconfig.cache
