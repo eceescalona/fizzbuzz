@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "FizzBuzzConsoleExercise/1.0.0": {
+        "runtime": {
+          "FizzBuzzConsoleExercise.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FizzBuzzConsoleExercise/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

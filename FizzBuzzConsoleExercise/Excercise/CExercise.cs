@@ -13,7 +13,7 @@ namespace FizzBuzzConsoleExercise.Excercise
                 throw new ArgumentNullException(nameof(array));
             }
             
-            if (array.Length <= 0 || array.Length > 100)
+            if (array.Length != 100)
             {
                 throw new ArgumentOutOfRangeException(nameof(array), array.Length, "Argument out of range.");
             }
@@ -35,10 +35,12 @@ namespace FizzBuzzConsoleExercise.Excercise
                 if (!string.IsNullOrWhiteSpace(line))
                 {
                     result += line;
+                    Console.WriteLine(line);
                 }
                 else
                 {
                     result += number.ToString();
+                    Console.WriteLine(number);
                 }
             }
 
